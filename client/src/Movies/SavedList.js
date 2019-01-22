@@ -8,9 +8,8 @@ export default class SavedList extends Component {
         <h3>Saved Movies:</h3>
         {this.props.list.map(movie => (
           <NavLink
-          
             to={`/movies/${movie.id}`}
-            activeClassName='current'
+            activeClassName="current"
             className="saved-movie"
           >
             {movie.title}

@@ -73,5 +73,6 @@ body {
 
 .current {
   color: red;
+  font-weight: 550;
   text-decoration: overline underline;
 }
